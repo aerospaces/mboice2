@@ -1,0 +1,192 @@
+.gallery-card1-gallery-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-card1-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-card1-text {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.gallery-card1-text1 {
+  color: var(--dl-color-gray-500);
+  align-self: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .gallery-card1-gallery-card {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .gallery-card1-image {
+    height: 10rem;
+  }
+}
+
+.reviews-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: radial-gradient(circle at center, rgb(252, 0, 255) 0.00%,rgb(0, 219, 222) 100.00%);
+}
+.reviews-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reviews-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.reviews-navlink {
+  font-size: 40px;
+  align-self: center;
+  transition: 0.3s;
+  font-weight: bold;
+  line-height: 1.15;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  text-decoration: none;
+}
+.reviews-navlink:hover {
+  text-decoration: underline  none;
+}
+.reviews-navlink01 {
+  font-size: 40px;
+  align-self: center;
+  transition: 0.3s;
+  font-weight: bold;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  text-decoration: none;
+}
+.reviews-navlink01:hover {
+  text-decoration: underline none;
+}
+.reviews-gallery {
+  width: 100%;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.reviews-component {
+  text-decoration: none;
+}
+.reviews-component01 {
+  text-decoration: none;
+}
+.reviews-component02 {
+  text-decoration: none;
+}
+.reviews-component03 {
+  text-decoration: none;
+}
+.reviews-component04 {
+  text-decoration: none;
+}
+.reviews-component05 {
+  text-decoration: none;
+}
+.reviews-gallery1 {
+  width: 100%;
+  height: 1478px;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  padding-bottom: 21px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.reviews-component06 {
+  text-decoration: none;
+}
+.reviews-component07 {
+  text-decoration: none;
+}
+.reviews-component08 {
+  text-decoration: none;
+}
+.reviews-component09 {
+  text-decoration: none;
+}
+.reviews-component10 {
+  text-decoration: none;
+}
+.reviews-component11 {
+  text-decoration: none;
+}
+.reviews-link {
+  font-size: 20px;
+  transition: 0.3s;
+  font-weight: 700;
+  text-decoration: none;
+}
+.reviews-link:hover {
+  text-decoration: underline none;
+}
+@media(max-width: 991px) {
+  .reviews-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+  .reviews-gallery1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 767px) {
+  .reviews-gallery {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .reviews-gallery1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .reviews-gallery {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .reviews-gallery1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
